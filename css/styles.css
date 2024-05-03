@@ -614,6 +614,22 @@ footer:last-child {
     text-align: left;
 }
 
+.footer-icon {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.flex-copyright{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.flex-copyright i {
+    font-size: 1.3rem;
+}
+
 @media (max-width:960px) {
     nav {
         height: 6rem;

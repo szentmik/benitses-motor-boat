@@ -64,6 +64,19 @@ a {
     font-weight: 600;
 }
 
+.top-btn {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.top-btn i {
+    color: #15344855;
+    text-shadow:1px 1px 1px #ffffff55 ;
+    font-size: 2rem;
+}
+
 section>div {
     margin: 0 auto;
     width: 85%;
@@ -539,6 +552,19 @@ hr {
     width: 600px;
     max-width: 100%;
     object-fit: cover;
+}
+
+.flex-video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ytplayer {
+    height: 337px;
+    width: 600px;
+    max-width: 100%;
 }
 
 /* Contact  */

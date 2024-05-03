@@ -5,10 +5,7 @@ const heroImgs = document.querySelectorAll(".hero-img");
 const heroTexts = document.querySelectorAll(".hero-text");
 const mobileNavBtns = document.querySelectorAll(".mobile-nav-btn");
 const mobileMenuBtns = document.querySelectorAll(".nav-item");
-
-// faqBtn.addEventListener("click", ()=>{
-//     faqPage.classList.toggle("show-faq");
-// });
+const topBtn = document.querySelector(".top-btn");
 
 mobileNavBtns.forEach((navBtn, n) => {
     navBtn.addEventListener("click", () => {
@@ -32,4 +29,12 @@ faqBtns.forEach((btn, n) => {
         faqCloseBtn.classList.toggle("rotate");
         console.log(btn);
     });
+});
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 400) {
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
 });

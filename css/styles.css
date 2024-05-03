@@ -623,10 +623,10 @@ footer:last-child {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 1rem;
 }
 
 .flex-copyright i {
+    margin-left: 1rem;
     font-size: 1.3rem;
 }
 
